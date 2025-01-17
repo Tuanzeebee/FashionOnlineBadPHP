@@ -1,0 +1,126 @@
+    .select-wraps {
+        margin-top: 20px;
+    }
+
+    .select-wraps .col-md-6 {
+        margin-bottom: 10px;
+    }
+
+    /* Điều chỉnh kích thước font và padding cho các phần tử */
+    h1 {
+        font-size: 28px;
+        font-weight: bold;
+    }
+
+    .article-content img {
+        max-width: 100%;
+        height: auto;
+        display: block;
+        object-fit: cover;
+        margin: 0 auto;
+    }
+
+    .bcrumbs {
+        background-color: #fff;
+        padding: 10px 0;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .bcrumbs ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+    }
+
+    .bcrumbs li {
+        margin-right: 10px;
+    }
+
+    .bcrumbs a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .space10 {
+        height: 10px;
+        /* Khoảng cách theo chiều cao */
+    }
+
+    ul.test1 {
+        color: black;
+    }
+
+    ul.test1 a {
+        color: black;
+        text-decoration: none;
+    }
+
+    ul.test1 a:hover {
+        text-decoration: none;
+    }
+
+    body {
+        font-family: 'Roboto Condensed', sans-serif, Arial, sans-serif;
+        font-size: 14px;
+        color: #333;
+        background: #FFF;
+    }
+
+    /* Đảm bảo giữ nguyên vị trí của các phần tử trong các col-md-6 */
+    .select-wraps .col-md-6 {
+        padding: 10px;
+        /* Khoảng cách giữa các ô */
+    }
+
+    .row.select-wraps {
+        display: flex;
+        /* Căn chỉnh theo hàng ngang */
+        gap: 10px;
+        /* Khoảng cách giữa các ô */
+    }
+
+    .side-widget {
+        background-color: #fff;
+        padding: 15px;
+        border-radius: 5px;
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+        margin-left: 80px;
+
+    }
+
+    .side-widget h3 {
+        font-size: 23px;
+        margin-bottom: 15px;
+    }
+
+    aside#page_right_column ul.cat-list li a {
+        color: black;
+        /* Màu chữ đen */
+        text-decoration: none;
+    }
+
+    aside#page_right_column ul.cat-list li a:hover {
+        color: #333;
+        /* Màu chữ khi hover (tùy chỉnh theo ý muốn) */
+    }
+
+    .cat-list {
+        list-style: none;
+        padding: 0;
+    }
+
+    .cat-list li {
+        margin-bottom: 10px;
+    }
+
+    .product-price {
+        display: block;
+        margin-top: 5px;
+        font-weight: bold;
+    }
+
+    .product-price em {
+        text-decoration: line-through;
+        color: #888;
+    }

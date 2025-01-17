@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<!-- backtotop.html -->
+ <style>
+    /* styles.css */
+#backToTop {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-size: 18px;
+    display: none;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+#backToTop:hover {
+    background-color: #333;
+    transform: scale(1.1);
+}
+
+#backToTop i {
+    margin: 0;
+}
+
+ </style>
+<button id="backToTop">
+    <i class="fa fa-arrow-up"></i>
+</button>
+<script>// scripts.js
+    window.addEventListener("scroll", function () {
+        const button = document.getElementById("backToTop");
+        if (window.scrollY > 300) {
+            button.style.display = "flex";
+        } else {
+            button.style.display = "none";
+        }
+    });
+    
+    document.getElementById("backToTop").addEventListener("click", function () {
+        window.scrollTo({
+            top: 0,
+            behavior: "smooth",
+        });
+    });
+    </script>
+</head>
+
+
+</html>
